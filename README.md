@@ -1,13 +1,13 @@
 # Dossier Star pour filleul Info - 2023
 ### Bienvenue
-Bienvenue sur ce dépôt ! Il contient beaucoup de ressourcesb et d'aides pour les nouveaux A1 débarquant au [département Informatique](https://www.iut.unilim.fr/les-formations/but/informatique/) de [l'IUT du Limousin](https://www.iut.unilim.fr/).
+Bienvenue sur ce dépôt ! Il contient beaucoup de ressources et d'aides pour les nouveaux A1 débarquant au [département Informatique](https://www.iut.unilim.fr/les-formations/but/informatique/) de [l'IUT du Limousin](https://www.iut.unilim.fr/).
 - - -
 ### Contenu
 Je réalise ce dépôt seul, en me basant sur mes connaissances, ma passion, mes cours des années 2021 (MMI) et 2022 (Info), et mon travail de 2022[^1].
 [^1]:Parfois réalisé en groupes, notement pour les SAE. Contient aussi tu travail des camarades avec qui j'ai effectué ces exercices.
 - - -
 ### Télécharger
-Si vous n'êtes pas à l'aise avec GitHub, voici comment télécharger facilement ce dépôt sous forme de dossier zip :
+Si vous n'êtes pas à l'aise avec l'outil GitHub, voici comment télécharger facilement ce dépôt sous forme de dossier zip :
 <br>
 *// Todo*
 - - -
