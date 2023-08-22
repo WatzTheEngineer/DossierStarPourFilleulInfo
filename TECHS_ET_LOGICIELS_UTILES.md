@@ -63,3 +63,9 @@ Cette vue d'ensemble vous permettra de vous préparer pour leur installation, le
   > TODO
 - ### LinkTree
   > TODO
+- ### Coolors
+  > TODO
+- ### Adobe Color Wheel
+  > TODO
+- ### CyberChef
+  > TODO
