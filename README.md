@@ -1,4 +1,4 @@
-# Dossier Star pour filleul Info - 2023
+# Dossier S.T.A.R. pour filleul Info - 2023
 ### Bienvenue
 Bienvenue sur ce dépôt ! Il contient beaucoup de ressources et d'aides pour les nouveaux A1 débarquant au [département Informatique](https://www.iut.unilim.fr/les-formations/but/informatique/) de [l'IUT du Limousin](https://www.iut.unilim.fr/).
 - - -
