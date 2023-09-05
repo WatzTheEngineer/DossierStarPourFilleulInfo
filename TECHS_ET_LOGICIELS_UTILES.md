@@ -40,8 +40,8 @@ Le vocabulaire utilisé ici reste simple pour parler au plus grand nombre.
   > **/!\ ECLIPSE REQUIERT JAVA INSTALLÉ POUR FONCTIONNER /!\\**
   >
   > Je ne recommande pas l'utilisation **[d'IntelliJ IDEA](https://www.jetbrains.com/idea/)** pour les cours de développement, surtout si vous ne savez pas exactement ce que vous faites.
-- ### JUnit Test
-  > TODO
+- ### JUnit
+  > **[Junit 5](https://junit.org/junit5/)** est un plugin utilisé pour effectuer des tests unitaires en Java. Vous apprendrez à l'installer dans Eclipse et à l'utiliser. Pour plus d'infos, vous pouvez une nouvelle fois regarder les cours du S2 disponibles **[ici](https://github.com/iblasquez/enseignement-but1-developpement)**.
 - ### Kathara
   > **[Kathara](https://www.kathara.org/)** est un simulateur de réseau sous forme de machines virtuelles. Si vous ne voyez pas de quoi je parle, tout devrait être plus clair dans quelques cours. Vous l'utiliserez surtout directement sur les PC de l'IUT. 
 - ### SceneBuilder
@@ -53,7 +53,10 @@ Le vocabulaire utilisé ici reste simple pour parler au plus grand nombre.
 - ### PyCharm
   > TODO
 - ### Algorithmique (VSC)
-  > TODO
+  > ![algo][algo] <br>
+  **[L'extension VSCode Algorithmique]** est vraiment super utile si vous avez droit à votre PC perso lors des TD de développement au Semestre 1. Elle vous aidera à tapper bien plus vite le pseudo-code demandé, et vous permettra de l'auto-compléter. Elle est disponible sur le marketplace des extensions directement dans VSCode[^2]
+  >
+  > [^2]:*(Ctrl+Shift+X sur Windows)*
 - ### Le Markdown (.md)
   > TODO
 - ### ChatGPT
@@ -93,3 +96,4 @@ Le vocabulaire utilisé ici reste simple pour parler au plus grand nombre.
 [vscode_inst]:./imgs/vscode_inst.png
 [vscode_owc]:./imgs/vscode_owc.png
 [eclipse]:./imgs/eclipse-logo.png
+[algo]:./imgs/algo.png
