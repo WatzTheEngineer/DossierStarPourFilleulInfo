@@ -14,4 +14,6 @@ Si vous n'êtes pas à l'aise avec l'outil GitHub, voici comment télécharger f
 ### Structure du dépôt
 Voici comment est organisé le dépôt :
 <br>
-*// Todo*
+- imgs *Ressources contenant les images utilisées dans le reste du dépôt*
+- parrainage *Tous les documents publiques utilisés pour l'accueil des A1*
+- **TECHS_ET_LOGICIELS_UTILES** *Fichier contenant des explications sur les outils informatiques utilisés en A1 et ceux que je recommande*
