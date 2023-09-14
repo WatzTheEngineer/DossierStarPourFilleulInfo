@@ -58,7 +58,10 @@ Le vocabulaire utilisé ici reste simple pour parler au plus grand nombre.
   >
   > [^2]:*(Ctrl+Shift+X sur Windows)*
 - ### Le Markdown (.md)
-  > TODO
+  > ![Markdown][md] <br>
+  Markdown est un langage de balisage léger créé dans le but d'offrir une syntaxe facile à lire et à écrire dans sa forme non formatée. Markdown est principalement utilisé dans des pages de documentation de logiciels. Un document rédigé par Markdown peut être converti en HTML, en PDF ou en d'autres formats.
+  >
+  > Si vous ne savez pas ce que c'est, ouvrez ce document avec un éditeur de texte, il est rédigé en markdown. **Je vous conseille d'apprendre à utiliser ce langage**. L'apprentissage est très rapide, et le Markdown permet de gagner beaucoup de temps lors de la rédaction de documents, qu'il sagisse de rapports de travail ou de notes de cours. La mise en page est standardisée et automatique.
 - ### ChatGPT
   > TODO
 - ### WebStorm
@@ -97,3 +100,4 @@ Le vocabulaire utilisé ici reste simple pour parler au plus grand nombre.
 [vscode_owc]:./imgs/vscode_owc.png
 [eclipse]:./imgs/eclipse-logo.png
 [algo]:./imgs/algo.png
+[md]:./imgs/md.png
