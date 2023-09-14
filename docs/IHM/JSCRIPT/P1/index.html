@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Accueil</h1>
+    <h2>Bienvenue sur mon application HTML</h2>
+    <a href="realisation.html">realisation</a>
+    <a href="presentation.html">presentation</a>
+
+    <input type="number" name="input" id="temperature">
+    <button onclick="temperature(document.getElementById('temperature').value)">SUBMIT</button>
+
+    <script>
+        //Test partie 1
+        document.write("TEST test TEST");
+        document.writeln("Test2 TEST2 Test2");
+        document.writeln("Test3 TEST3 Test3");
+        document.writeln("16",16,"16"); //writeln génère un saut en fin de chaine
+        document.write("16",16,"16")    //ce qui n'est pas le cas de la fonction write
+        a = "test4";
+        document.write(a);
+
+        //Tests partie 2
+        function temperature(temperature){
+            if (temperature > 50){
+                alert(`temperature (${temperature}°C) > 50°C`);
+            }else{
+                alert(`temperature (${temperature}°C) <= 50°C`);
+            }
+        }
+
+        //Test partie 3
+        console.log("FOR :\n");
+        for (let index = 0; index < 101; index++) { //répète la condition pour les x ittérations entre le départ et l'arrivée
+            console.log(index);
+        }
+
+        console.log("WHILE : \n");
+        let i = 0;
+        while (i<=100) {    //répète l'action tant que la condition est vraie
+            console.log(i);
+            i++;
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body{
+    background-color: goldenrod;
+    display: flex;
+}
+#main{
+    background-color: whitesmoke;
+    height: 90%;
+    width: 75%;
+}

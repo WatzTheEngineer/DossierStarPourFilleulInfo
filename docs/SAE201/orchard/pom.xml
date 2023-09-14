@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>fr.unilim.iut</groupId>
+	<artifactId>orchard</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<!-- Specify the encoding and JDK version to use -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.17</maven.compiler.source>
+		<maven.compiler.target>1.17</maven.compiler.target>
+		<javafx.version>17</javafx.version>
+		<javafx.maven.plugin.version>0.0.1</javafx.maven.plugin.version>
+		
+	</properties>
+	<dependencies>
+
+		<!-- Dependency to javaFX -->
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+		
+
+
+		<!-- Dependency to JUnit 5 -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.8.2</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- Dependency to AssertJ-->
+		<dependency>
+		    <groupId>org.assertj</groupId>
+		    <artifactId>assertj-core</artifactId>
+		    <version>3.24.2</version>
+		    <scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+	<build>
+		<plugins>
+
+			<!-- To be able to run javaFX -->
+			<plugin>
+				<groupId>fr.unilim.iut</groupId>
+				<artifactId>javafx-maven-plugin</artifactId>
+				<version>${javafx.maven.plugin.version}</version>
+				<configuration>
+					<mainClass>OrchardMain</mainClass>
+				</configuration>
+			</plugin>
+
+
+			<!-- To be compatible with JUnit 5 -->
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>

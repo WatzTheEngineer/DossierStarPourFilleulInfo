@@ -1,0 +1,372 @@
+/*=================================
+            DEBUT CSS RESET
+===================================*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*=================================
+            FIN CSS RESET
+===================================*/
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+html {
+    --theme_color: violet;
+}
+
+@keyframes razerrgb{
+    0%{
+        color: red;
+    }
+    12.5%{
+        color: red;
+    }
+    25%{
+        color: orange;
+    }
+    37.5%{
+        color: yellow;
+    }
+    50%{
+        color: green;
+    }
+    62.5%{
+        color: cyan;
+    }
+    75%{
+        color: blue;
+    }
+    87.5%{
+        color: purple;
+    }
+    100%{
+        color: red;
+    }
+}
+
+body {
+    display: flex;
+    background-image: url("media/img/bg.jpg");
+    margin: 0;
+    justify-content: center;
+    animation: razerrgb 5s linear infinite;
+}
+
+#frame {
+    background-color: white;
+    width: 60%;
+    border: 2px solid var(--theme_color);
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    align-items: center;
+}
+
+header img {
+    width: 20%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+nav ul li {
+    width: 25%;
+    border: 2px solid var(--theme_color);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.2em;
+}
+
+article,
+#part3 {
+    padding: 2%;
+}
+
+#part1,
+#part2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imaged {
+    width: 40%;
+}
+
+.imaged img {
+    width: 50%;
+}
+
+.imaged h3 {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.imaged p {
+    text-align: justify;
+}
+
+article a {
+    float: right;
+    color: black;
+    font-weight: bold;
+}
+
+.textonly {
+    width: 20%;
+}
+
+#side {
+    float: right;
+    width: 25%;
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid var(--theme_color);
+}
+
+#mainp {
+    text-align: justify;
+}
+
+hr {
+    width: 60%;
+    color: var(--theme_color);
+}
+
+footer h4 {
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+}
+
+#sn {
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+#sn span {
+    margin: 2%;
+    text-align: center;
+}
+
+.usn {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#bonus {
+    display: flex;
+    justify-content: center;
+}
+
+#ring {
+    background-image: url("media/img/ring.jpg");
+    width: fit-content;
+    border-radius: 100%;
+    margin-bottom: 2%;
+}
+
+#ring div {
+    background-color: white;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 100%;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+#ring div a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+}

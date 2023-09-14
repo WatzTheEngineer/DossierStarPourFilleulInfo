@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.box{
+    border: 0.1em solid black;
+    padding: 2em;
+    margin: 1em;
+    width: 80%;
+}
+.t2{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 49.5%;
+    text-align: justify;
+}
+table{
+    width: 100%;
+}
+.grey{
+    background-color: grey;
+}
+#val2{
+    color: lime;
+}
+#val6{
+    color: gold;
+}
+table,td,th{
+    border: 1px solid rgb(20, 20, 20);
+    padding: 0;
+    border-collapse: collapse;
+}
+#blue,#red{
+    margin: 1em;
+    /*position: absolute;*/
+    border-radius: 100%;
+    position: absolute;
+}
+#blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+#red{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    z-index: -1;
+}
+#circle{
+    min-width: 25%;
+}
