@@ -9,7 +9,15 @@ Je réalise ce dépôt seul, en me basant sur mes connaissances, ma passion, mes
 ### Télécharger
 Si vous n'êtes pas à l'aise avec l'outil GitHub, voici comment télécharger facilement ce dépôt sous forme de dossier zip :
 <br>
-*// Todo*
+> ![dl1][dl1] <br>
+    Dérouler le menu code présent en haut de la page principale (racine du dépôt). <br>
+    ![dl2][dl2] <br>
+    Cliquer sur download zip et enregister l'archive
+
+Si vous savez utiliser git :
+> git clone https://github.com/WatzTheEngineer/DossierStarPourFilleulInfo.git
+
+
 - - -
 ### Structure du dépôt
 Voici comment est organisé le dépôt :
@@ -19,3 +27,6 @@ Voici comment est organisé le dépôt :
 - parrainage *Tous les documents publiques utilisés pour l'accueil des A1*
 - **TECHS_ET_LOGICIELS_UTILES** *Fichier contenant des explications sur les outils informatiques utilisés en A1 et ceux que je recommande*
 - tips *Petites aides supplémentaires utiles en vrac*
+
+[dl1]:./imgs/dl_repo_zip.jpg
+[dl2]:./imgs/dl_repo_zip_2.jpg
