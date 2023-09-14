@@ -71,7 +71,7 @@ Le vocabulaire utilisé ici reste simple pour parler au plus grand nombre.
 - ### Gdoc/Gslide/Gform/Gsheet
   > TODO
 - ### Discord du département
-  > TODO
+  > Je pense que vous ne survivrez pas vraiment sans, tout est posté dessus, il sert autant de lieu d'échange entre les élèves que de moyen pour ceux-ci de partager des informations importantes. Rejoignez-le !
 - ### Photoshop
   > TODO
 - - -
@@ -93,7 +93,7 @@ Le vocabulaire utilisé ici reste simple pour parler au plus grand nombre.
 - ### Adobe Color Wheel
   > TODO
 - ### CyberChef
-  > TODO
+  > [**CyberChef**](https://gchq.github.io/CyberChef/) est un site très utile pour effectuer des conversions ou du traitement de données. Il est notement approprié pour faire des test de chiffrement ou encore des CTFs, et est téléchargeable en version locale.
 
 [vscode]:./imgs/vscode.png
 [vscode_inst]:./imgs/vscode_inst.png
